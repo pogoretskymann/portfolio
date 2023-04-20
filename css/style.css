@@ -1,0 +1,123 @@
+* {
+    font-family: 'Gilroy-Bold', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 943px;
+    margin: 0 auto;
+}
+
+.about_me,
+.portfolio {
+    background-color: #F6F6F6;
+}
+
+h1 {
+    max-width: 30px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 0;
+    border-bottom: 1px solid #828282;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+a {
+    color: #070707;
+    text-decoration: none;
+}
+
+.header__nav {
+    color: #828282;
+    font-family: 'Gilroy-Bold';
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.header__content {
+    margin: 0 0 105px 0;
+}
+
+.header__content-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin: 40px 0 30px 0;
+}
+
+.header__btn {
+    transform: rotate(-90deg);
+}
+
+.about_me {
+    text-align: center;
+    padding: 110px 0;
+    margin: 0 0 90px 0;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.about_me p {
+    max-width: 485px;
+}
+
+.about_me .container {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.skills {
+    /* margin: 0 0 110px 0; */
+    text-align: center;
+}
+
+.skills h2, .skills p {
+    margin: 0 0 70px 0;
+}
+
+.skills ul {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 14px;
+    line-height: 17px;
+    color: #828282;
+    border-bottom: none;
+}
+
+.skills-item p {
+    margin: 0 0 40px 0;
+}
+
+.skills img {
+    margin: 0 0 23px 0;
+}
+
+.portfolio .container {
+    padding-top: 112px;
+    text-align: center;
+}
+
+.portfolio ul {
+    display: flex;
+    flex-direction: column;
+    border-bottom: none;
+}
+
+.portfolio-img {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.portfolio-link {
+    margin-bottom: 99px;
+    text-decoration: underline;
+}
